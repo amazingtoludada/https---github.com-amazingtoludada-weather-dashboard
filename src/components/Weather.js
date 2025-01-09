@@ -1,6 +1,6 @@
 // src/components/Weather.js
 import React, { useState } from 'react';
-import fetchWeather from '../services/weatherService';
+import fetchWeather from '../services/weatherServices';
 
 function Weather() {
   const [city, setCity] = useState('');
